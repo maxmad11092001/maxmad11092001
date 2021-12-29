@@ -1,0 +1,27 @@
+body {
+    padding: 0;
+    height: 700px;
+    width: 100%;
+}
+.navbar{
+    margin: 0;
+    width: 20%;
+    height: 100%;
+    background: #000;
+    float: left;
+}
+.navbar_class li{
+    padding: 10px 20px ;
+    display: block;
+    list-style: none;
+    text-align: center;
+    font-size: 1.2em;
+}
+.navbar_class :hover{
+    background:  rgb(0, 46, 145);
+    color: rgb(190, 209, 22);
+}
+.navbar_class a{
+    color: #ffff;
+    text-decoration: none;
+}

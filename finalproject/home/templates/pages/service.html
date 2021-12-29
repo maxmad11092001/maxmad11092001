@@ -1,0 +1,40 @@
+{% extends "pages/base.html" %}
+{% load static %}
+{% block title %}DND games{% endblock %}
+    
+{% block content %}
+<div class="header">
+    <div class="header-wrap">
+        <div class="nav-bar">
+            <nav>
+                <ul>
+                    <li><a href="{% url 'home' %}">Home</a></li>
+                    <li><a href="{% url 'about' %}">About</a></li>
+                    <li><a href="{% url 'news' %}">News</a></li>
+                    <li><a href="{% url 'service' %}">Services</a></li>
+                </ul> 
+            </nav>
+        </div>
+        <div class="login">
+            <div calss="blank">
+                <ul>
+                    <li><a href="{% url 'login' %}">sign up</a></li>
+                    <li><a href="{% url 'register' %}">sign in</a></li>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="contain">
+        <div class="logo">
+            <img src="{% static 'images/1234.png' %}" alt="DND games" >
+        </div>
+        <div class="product">
+            <div class="background">
+                <h2 style='color: #311597'>Service</h2>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>copy right by somebody that i used to know </p>
+    </footer>
+{% endblock %}

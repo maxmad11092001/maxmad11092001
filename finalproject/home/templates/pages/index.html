@@ -1,0 +1,19 @@
+{% comment %} {% extends "pages/base.html" %} {% endcomment %}
+{% load static %}
+{% comment %} {% block title %}DND games{% endblock %} {% endcomment %}
+<link rel="stylesheet" href="{% static 'css/index.css' %}">
+        <div class="logins">
+            <form action="" class="form_login">
+            <h1> Login</h1>
+            <div class="form_group">
+                <input type="text" class="form_input" placeholder="username">
+            </div>
+            <div class="form_group">
+                <input type="text" class="form_input" placeholder="password">
+            </div>
+            <button class="form_submit" placeholder="form_submit">Đăng nhập</button>
+            <div class="register">
+                <a href="../register">nếu chưa có tài khoản, đăng ký tại đây</a>
+            </div>
+            </form>
+        </div>

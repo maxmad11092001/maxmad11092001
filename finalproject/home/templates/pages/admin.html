@@ -1,0 +1,36 @@
+{% load static %}
+    <link rel="stylesheet" href="{% static 'css/information.css'%}">
+    <link rel="stylesheet" href="{% static 'css/customer.css'%}">
+    <title>Document</title>
+    {% block solution %}
+    
+    {% endblock %}
+    <div class="main">
+        <h1>Cập nhật thông tin</h1>
+            <form>
+                <table>
+                    <tr>
+                        <td>Username</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                            <td>Email</td>
+                            <td></td>
+                    </tr>
+                    <tr>
+                            <td>PhoneNumber</td>
+                            <td></td>
+                    </tr>
+                    <tr>
+                            <td>CardId</td>
+                            <td></td>
+                    </tr>
+                    <tr>
+                        <td>Cost</td>
+                        <td></td>
+                    </tr>
+                </table>
+                <input type="submit" class="submit" value="Sửa Thông tin">
+                
+            </form>
+    </div>

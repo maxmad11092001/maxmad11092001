@@ -1,0 +1,42 @@
+body {
+    background-size: cover;
+    background-position-y: -88px;
+}
+.login {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_login{
+    background-image: linear-gradient(purple,pink);
+    max-width: 400px;
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+}
+.login h1{
+  color: #000;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.form_group{
+    border-bottom: 1px solid #000;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.form_group ::placeholder{
+    color: #000;
+}
+.form_input {
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+.form_submit{
+    width: 100%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+}
+.register{
+    padding: 5px;
+}

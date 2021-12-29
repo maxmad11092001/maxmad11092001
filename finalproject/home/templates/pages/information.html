@@ -1,0 +1,32 @@
+{% load static %}
+    <link rel="stylesheet" href="../css/information.css">
+    <link rel="stylesheet" href="../css/customer.css">
+    {% block solution %}
+    
+    {% endblock %}
+    <div class="main">
+        <h1>Cập nhật thông tin</h1>
+            <form>
+                <table>
+                    <tr>
+                        <td>Username</td>
+                        <td><input type="text" name="Username"></td>
+                    </tr>
+                    <tr>
+                            <td>Email</td>
+                            <td><input type="text" name="Email"></td>
+                    </tr>
+                    <tr>
+                            <td>PhoneNumber</td>
+                            <td><input type="text" name="PhoneNumber"></td>
+                    </tr>
+                    <tr>
+                            <td>CardId</td>
+                            <td><input type="text" name="CardId"></td>
+                    </tr>
+                </table>
+                <input type="submit" class="submit" value="Cập Nhật">
+            </form>
+    </div>
+</body>
+</html>
